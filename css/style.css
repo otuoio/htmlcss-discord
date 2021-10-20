@@ -37,7 +37,6 @@ html {
 
 /* header style */
 .header {
-    height: 400px;
     width: 100%;
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -45,9 +44,10 @@ html {
 }
 
 .menu {
-    height: 10vh;
-    line-height: 10vh;
+    height: 8vh;
+    line-height: 8vh;
     width: 80%;
+    font-size: 0.7em;
     margin: 0 auto;
     text-align: center;
 }
@@ -69,7 +69,6 @@ html {
 .menu-inline li a {
     text-decoration: none;
     color: white;
-    font-size: 0.7em;
     margin: 0 1em;
 }
 
@@ -89,7 +88,44 @@ a.btn {
     border-radius: 25px;
 }
 
-a.btn:hover {
-    color: rgb(0, 119, 255)
+a.btn:hover,
+a.btn:active,
+a.btn:focus {
+    color: rgb(0, 119, 255);
 }
 
+/* jumbotron style */
+
+.head-jumbo {
+    width: 50%;
+    margin: 0 auto;
+    padding: 3em 0;
+    text-align: center;
+    color: white;
+}
+
+h1.head-jumbo-title {
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+p.head-jumbo-content {
+    font-size: 0.8em;
+    margin: 1em 0;
+}
+
+a.btn.big {
+    font-size: 0.8em;
+    line-height: 2.5em;
+}
+
+a.btn.big.dark {
+    background-color: #23272A;
+    color: white;
+}
+
+a.btn.big.dark:hover,
+a.btn.big.dark:active,
+a.btn.big.dark:focus {
+    color: rgb(0, 119, 255);
+}
