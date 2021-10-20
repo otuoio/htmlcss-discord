@@ -124,8 +124,40 @@ a.btn.big.dark {
     color: white;
 }
 
+.head-jumbo-btn .btn:first-child {
+    margin-right: 1em;
+}
+
 a.btn.big.dark:hover,
 a.btn.big.dark:active,
 a.btn.big.dark:focus {
     color: rgb(0, 119, 255);
 }
+
+/* main style */
+
+.main-section-1 {
+    width: 100%;
+}
+
+.sec-center {
+    width: 70%;
+    margin: 3em auto;
+}
+
+.col img {
+    width: 100%;
+    object-fit:cover;
+}
+
+.col.width-40{
+    padding-left: 4em;
+}
+ .col h2 {
+    font-size:1.5em;
+    margin-bottom: 0.8em;
+ }
+
+ .col p {
+     font-size: 0.8em;
+ }
