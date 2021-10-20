@@ -136,13 +136,14 @@ a.btn.big.dark:focus {
 
 /* main style */
 
-.main-section-1 {
+.main-section {
     width: 100%;
+    padding: 3em 0;
 }
 
 .sec-center {
     width: 70%;
-    margin: 3em auto;
+    margin: 0 auto;
 }
 
 .col img {
@@ -160,4 +161,8 @@ a.btn.big.dark:focus {
 
  .col p {
      font-size: 0.8em;
+ }
+
+ .beige {
+     background-color: #F6F6F6;
  }
