@@ -9,6 +9,8 @@ html {
     font-family: ‘Whitney’, sans-serif;
 }
 
+/* general */
+
 .clearfix::after {
     content: '';
     display: table;
@@ -34,6 +36,10 @@ html {
 .float-r {
     float: right;
 }
+
+.bg-beige {
+     background-color: #F6F6F6;
+ }
 
 /* header style */
 .header {
@@ -163,6 +169,41 @@ a.btn.big.dark:focus {
      font-size: 0.8em;
  }
 
- .beige {
-     background-color: #F6F6F6;
- }
+ /* main jumbotron style */
+
+ .main-jumbo-center {
+    width: 70%;
+    margin: 0 auto;
+    padding: 3em 0;
+    text-align: center;
+    color: black;
+}
+
+.main-jumbo-center h2 {
+    font-size:1.5em;
+    margin-bottom: 0.8em;
+}
+
+.main-jumbo-center p {
+    font-size: 0.8em;
+}
+
+.main-jumbo-center img {
+    width: 100%;
+}
+
+.main-jumbo-center h3 {
+    font-size: 1.3em;
+    margin-bottom: 0.8em;
+}
+
+a.btn.big.purple {
+    background-color: #8EA1E1;
+    color: white;
+}
+
+a.btn.big.purple:hover,
+a.btn.big.purple:active,
+a.btn.big.purple:focus {
+    color: rgb(0, 119, 255);
+}
