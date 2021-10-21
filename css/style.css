@@ -154,9 +154,28 @@ a.btn.big.dark:focus {
 
 /* main style */
 
+.wave svg {
+    display: block;
+    fill: #F6F6F6;
+}
+
+.wave {
+    background-color: white;
+}
+
+.wave-white svg {
+    display: block;
+    fill: white;
+}
+
+.wave-white {
+    background-color: #F6F6F6;
+}
+
+
 .main-section {
     width: 100%;
-    padding: 3em 0;
+    padding-bottom: 3em;
 }
 
 .sec-center {
@@ -171,14 +190,16 @@ a.btn.big.dark:focus {
 
 .col-main.width-40{
     padding-left: 4em;
+    margin-top: 2em;
 }
  .col-main h2 {
-    font-size:1.5em;
+    font-size:2.3em;
     margin-bottom: 0.8em;
  }
 
  .col-main p {
-     font-size: 0.8em;
+     font-size: 1.3em;
+     line-height: 1.5em;
  }
 
  /* main jumbotron style */
@@ -205,8 +226,14 @@ a.btn.big.dark:focus {
 }
 
 .main-jumbo-center h3 {
+    display: inline-block;
     font-size: 1.3em;
     margin-bottom: 0.8em;
+    padding: 2em;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 a.btn.big.purple {
@@ -227,18 +254,13 @@ a.btn.big.purple:focus {
 }
 
 .footer .footer-up {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     padding: 2em 0;
 }
 
 .footer-up:first-child {
     padding-right: 2em;
-}
-
-.footer .footer-bottom {
-    width: 80%;
-    margin: 0 auto;
 }
 
 .foot-title {
@@ -261,6 +283,7 @@ a.btn.big.purple:focus {
 
 .col-foot-up .menu-inline li {
     color: white;
+    margin-right: 1em;
 }
 
 .col-foot-up .link-menu {
@@ -280,14 +303,16 @@ a.btn.big.purple:focus {
     margin: 1em 0;
 }
 
-.col-foot-up .link-menu li a:hover {
+.col-foot-up .link-menu li a:hover,
+.col-foot-up .link-menu li a:active,
+.col-foot-up .link-menu li a:focus {
     text-decoration: underline;
 }
 
 footer .footer-bottom {
     height: 7vh;
     line-height: 7vh;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     border-top: 1px solid #4A5882;
     text-align: center;
